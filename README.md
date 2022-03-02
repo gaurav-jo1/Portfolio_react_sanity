@@ -35,3 +35,10 @@ This website is using beautiful animation and function and using sanity as backe
 ![SS2](https://user-images.githubusercontent.com/93304640/156408696-b12c3f49-b45b-4359-92ad-954e84f69f28.png)
 
 # Installation 🔏
+
+
+You can use Visual Studio or your favourite IDE
+
+- clone the repository.
+- install the dependencies.
+- run `npm run start`.
