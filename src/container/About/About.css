@@ -1,0 +1,62 @@
+.app__about {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.app__profiles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.app__profile-item {
+  width: 190px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 2rem;
+}
+
+.app__profile-item img {
+  width: 100%;
+  height: 170px;
+  border-radius: 15px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media screen and (min-width: 2000px) {
+  .app__profile-item {
+    width: 370px;
+    margin: 2rem 4rem;
+  }
+  .app__profile-item img {
+    height: 320px;
+  }
+}
+/*# sourceMappingURL=About.css.map */

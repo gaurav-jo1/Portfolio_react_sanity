@@ -1,0 +1,215 @@
+.app__navbar {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem 2rem;
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  position: fixed;
+  z-index: 2;
+}
+
+.app__navbar-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.app__navbar-logo img {
+  width: 90px;
+  height: 20px;
+}
+
+@media screen and (min-width: 2000px) {
+  .app__navbar-logo img {
+    width: 180px;
+    height: 40px;
+  }
+}
+
+.app__navbar-links {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.app__navbar-links li {
+  margin: 0 1rem;
+  cursor: pointer;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.app__navbar-links li div {
+  width: 5px;
+  height: 5px;
+  background: transparent;
+  border-radius: 50%;
+  margin-bottom: 5px;
+}
+
+.app__navbar-links li a {
+  color: var(--gray-color);
+  text-decoration: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-transform: uppercase;
+  font-weight: 500;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.app__navbar-links li a:hover {
+  color: var(--secondary-color);
+}
+
+.app__navbar-links li:hover div {
+  background: var(--secondary-color);
+}
+
+@media screen and (max-width: 900px) {
+  .app__navbar-links {
+    display: none;
+  }
+}
+
+.app__navbar-menu {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: var(--secondary-color);
+}
+
+.app__navbar-menu svg {
+  width: 70%;
+  height: 70%;
+  color: var(--white-color);
+  cursor: pointer;
+}
+
+.app__navbar-menu div {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 5;
+  padding: 1rem;
+  width: 80%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: url(../../assets/bgWhite.png);
+  background-color: var(--white-color);
+  background-size: cover;
+  background-repeat: repeat;
+  -webkit-box-shadow: 0 0 20px rgba(168, 168, 168, 0.16);
+          box-shadow: 0 0 20px rgba(168, 168, 168, 0.16);
+}
+
+.app__navbar-menu div svg {
+  width: 35px;
+  height: 35px;
+  color: var(--secondary-color);
+  margin: 0.5rem 1rem;
+}
+
+.app__navbar-menu div ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.app__navbar-menu div ul li {
+  margin: 1rem;
+}
+
+.app__navbar-menu div ul li a {
+  color: var(--gray-color);
+  text-decoration: none;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.app__navbar-menu div ul li a:hover {
+  color: var(--secondary-color);
+}
+
+@media screen and (min-width: 900px) {
+  .app__navbar-menu div {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .app__navbar-menu {
+    display: none;
+  }
+}
+/*# sourceMappingURL=Navbar.css.map */
