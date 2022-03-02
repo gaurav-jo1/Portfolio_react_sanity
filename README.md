@@ -20,3 +20,14 @@ This website is using beautiful animation and function and using sanity as backe
 ⚔️ Framer motion
 
 ⚔️ React tooltip
+
+# Tools 🔧
+
+⚓ Visual Studio Code
+
+⚓ NPM (Node Package manager)
+
+⚓ Git
+
+# Visuals 🌻
+
