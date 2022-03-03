@@ -1,21 +1,8 @@
-![Portfolio (1)](https://user-images.githubusercontent.com/93304640/156385024-4d854f9e-0fbc-4ef9-bd70-5187be76858d.png)
+   ![Portfolio_Website](https://user-images.githubusercontent.com/93304640/156495374-77b50e17-940c-4731-9a0b-6b34386d1412.png)
 
 # Live site link ⬇️
 
 https://portfolio-michael-react.netlify.app/
-
-# About ⬇️
-
-This portfolio website is using beautiful design, animation and using sanity as backend.
-
-<h3>Things you find in the project</h3>
-
-List of projects
-
-Programming languages and tools 
-
-Experience of Development 
-
 
 
 # Tech Stack 💻
