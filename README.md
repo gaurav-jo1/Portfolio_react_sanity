@@ -6,7 +6,16 @@ https://portfolio-michael-react.netlify.app/
 
 # About ⬇️
 
-This website is using beautiful animation and function and using sanity as backend,You Email and message will appear in sanity studio.
+This portfolio website is using beautiful design, animation and using sanity as backend.
+
+<h3>Things you find in the project</h3>
+
+List of projects
+
+Programming languages and tools 
+
+Experience of Development 
+
 
 
 # Tech Stack 💻
